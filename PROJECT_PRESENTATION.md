@@ -48,4 +48,10 @@ Users need to implement a function `kettleyOrFish` that takes two inputs: `tempe
     - Run the barebones test and receive error when npm test is run ✅
     - Write another test to confirm setup ✅
     - Run the second test to pass as function exists in kettleyOrFish ✅
+    - Ensure all basic tests work before moving forward ✅
+
+5) Writing the full unit tests
+    - Create the tests for specific weather conditions 1: rain ✅
+    - Write second test for warm and sunny conditions 2: sunshine ✅
+    - Write third test for unclear conditions ✅
    
