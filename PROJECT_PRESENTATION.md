@@ -7,8 +7,8 @@
 
 In this kata, create a function that determines if you are in a John Kettley, Michael Fish or confused mood based on the weather forecast. 
 
-For those who remember the weathermen, John Kettley and Michael Fish, you're blessed; for those who don't, you should definitely go and checkout this chart topping song from 1988 by 'A Tribe Called Toffs' - John Kettley (is a weatherman).
-<video controls src="A Tribe of Toffs - John Kettley is a Weatherman.mp4" title="Title"></video>
+For those who remember the weathermen, John Kettley and Michael Fish, you're blessed; for those who don't, you should definitely go and checkout this chart topping song from 1988 by 'A Tribe Called Toffs' - John Kettley (is a Weatherman). https://www.youtube.com/watch?v=Db6WHtNV5-I 
+
 ## Problem Statement
 
 Users need to implement a function `kettleyOrFish` that takes two inputs: `temperature` (a number) and `forecast` (a string). The function should return:
