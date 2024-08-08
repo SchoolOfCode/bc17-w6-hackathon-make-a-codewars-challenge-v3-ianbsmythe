@@ -1,6 +1,6 @@
 // rename file ✅
 // import vitest ✅
-import { test, expect } from "vitest";
+import { test, expect, should } from "vitest";
 
 // import function from ./kettleyOrFish.js ✅
 import { kettleyOrFish } from "./kettleyOrFish.js";
@@ -30,7 +30,16 @@ test("should return 'Fish' for warm and sunny conditions", () => {
     expect(kettleyOrFish(20, "sunshine")).toBe("Fish");
 });
 
-// Write third test for unclear conditions ✅
-test("should return 'Confused' for unclear conditions", () => {
+// Write third test for unclear conditions with several unclear weather conditions ✅
+test("should return 'Confused' for any unclear weather conditions", () => {
+    expect(kettleyOrFish(10, "foggy")).toBe("Confused");
+    expect(kettleyOrFish(20, "overcast")).toBe("Confused");
     expect(kettleyOrFish(15, "cloudy")).toBe("Confused");
 });
+
+// Additional testing for boundary and extreme conditions: Example for temps at 15°C with unclear forecast
+test("should return 'Confused' when temperature is exactly 15°C and the forecast is cloudy", () => {
+    expect(kettleyOrFish(15, "cloudy")).toBe("Confused");
+});
+
+// Additional testing 

@@ -9,9 +9,9 @@ For those who remember the weathermen, John Kettley and Michael Fish, you're ble
 ## Problem Statement
 
 Users need to implement a function `kettleyOrFish` that takes two inputs: `temperature` (a number) and `forecast` (a string). The function should return:
-- "Kettley" if it's cold and rainy
-- "Fish" if it's warm and sunny
-- "Confused" if the conditions don’t match these scenarios
+- "Kettley" if it's cold and rainy <!15
+- "Fish" if it's warm and sunny >!15
+- "Confused" if the conditions don’t match these scenarios like cloudy - 15
 
 ## Instructions for Participants
 
@@ -40,7 +40,7 @@ Users need to implement a function `kettleyOrFish` that takes two inputs: `tempe
     - Make sure clear examples are in the comment to guide users on how the function should work ✅
     - Include export function in 'kettleyOrFish.js' ✅
 
-4) Write unit tests
+4) Write barebones unit tests
     - Rename 'main.test.js' as kettleyOrFish.test.js' ✅
     - In test file import vitest ✅
     - In test file import function from ./kettleyOrFish.js ✅
@@ -49,6 +49,16 @@ Users need to implement a function `kettleyOrFish` that takes two inputs: `tempe
     - Write another test to confirm setup ✅
     - Run the second test to pass as function exists in kettleyOrFish ✅
     - Ensure all basic tests work before moving forward ✅
+
+|  Conditions   |  TC1     |   TC2    |   TC3    |    TC4   |    TC5   |    TC6   |    TC7   |  
+|---------------|----------|----------|----------|----------|----------|----------|----------|
+| Sunshine      |    Y     |    X     |    X     |    Y     |    X     |    X     |    X     |        
+| Rain          |    X     |    Y     |    X     |    X     |    Y     |    X     |    X     |          
+| Unclear/Other |    X     |    X     |    Y     |    X     |    X     |    Y     |    Y     |          
+| Temperature   |    20    |    10    |    15    |    12    |    25    |    11    |    32    |
+| Kettley       |    X     |    Y     |    X     |    X     |    X     |    X     |    X     |
+| Fish          |    Y     |    X     |    X     |    X     |    X     |    X     |    X     |
+| Confused      |    X     |    X     |    Y     |    Y     |    Y     |    Y     |    Y     |
 
 5) Writing the full unit tests
     - Create the tests for specific weather conditions 1: rain ✅
