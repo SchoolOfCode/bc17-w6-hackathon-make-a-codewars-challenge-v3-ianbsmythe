@@ -2,20 +2,20 @@
 
 ## Overview
 
-In this kata, create a function that determines if you are in a John Kettley or Michael Fish mood based on the weather forecast. 
+In this kata, create a function that determines if you are in a John Kettley, Michael Fish or simply confused mood based on the weather forecast. 
 
 For those who remember the weathermen, John Kettley and Michael Fish, you're blessed; for those who don't, you should definitely go and checkout this chart topping song from 1988 by 'A Tribe Called Toffs' - John Kettley (is a weatherman) https://www.youtube.com/watch?v=Db6WHtNV5-I .
 
 ## Problem Statement
 
 Users need to implement a function `kettleyOrFish` that takes two inputs: `temperature` (a number) and `forecast` (a string). The function should return:
-- "Kettley" if it's cold and rainy <!15
-- "Fish" if it's warm and sunny >!15
-- "Confused" if the conditions don’t match these scenarios like cloudy - 15
+- "Kettley" if it's cold and rainy 
+- "Fish" if it's warm and sunny 
+- "Confused" if the conditions don’t match these scenarios like cloudy 
 
 ## Instructions for Participants
 
-- Write a function `kettleyOrFish(temperature, forecast)` that returns the appropriate weatherman based on the given conditions.
+- Write a function `kettleyOrFish(temperature, forecast)` that returns the appropriate weatherman or confused state based on the given conditions.
 - The temperature will be an integer between -30 and 50.
 - The forecast will be a string like "rain", "sunshine", "cloudy", etc.
 
@@ -50,15 +50,15 @@ Users need to implement a function `kettleyOrFish` that takes two inputs: `tempe
     - Run the second test to pass as function exists in kettleyOrFish ✅
     - Ensure all basic tests work before moving forward ✅
 
-|  Conditions   |  TC1     |   TC2    |   TC3    |    TC4   |    TC5   |    TC6   |    TC7   |  
-|---------------|----------|----------|----------|----------|----------|----------|----------|
-| Sunshine      |    Y     |    X     |    X     |    Y     |    X     |    X     |    X     |        
-| Rain          |    X     |    Y     |    X     |    X     |    Y     |    X     |    X     |          
-| Unclear/Other |    X     |    X     |    Y     |    X     |    X     |    Y     |    Y     |          
-| Temperature   |    20    |    10    |    15    |    12    |    25    |    11    |    32    |
-| Kettley       |    X     |    Y     |    X     |    X     |    X     |    X     |    X     |
-| Fish          |    Y     |    X     |    X     |    X     |    X     |    X     |    X     |
-| Confused      |    X     |    X     |    Y     |    Y     |    Y     |    Y     |    Y     |
+|  Conditions   |  TC1     |   TC2    |   TC3    |    TC4   |    TC5   |    TC6   |    TC7   |    TC8   |  
+|---------------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Sunshine      |    Y     |    X     |    X     |    Y     |    X     |    X     |    X     |    X     |        
+| Rain          |    X     |    Y     |    X     |    X     |    Y     |    X     |    X     |    Y     |          
+| Unclear/Other |    X     |    X     |    Y     |    X     |    X     |    Y     |    Y     |    X     |          
+| Temperature   |    20    |    10    |    15    |    12    |    25    |    11    |    32    |   -10    |
+| Kettley       |    X     |    Y     |    X     |    X     |    X     |    X     |    X     |    Y     |
+| Fish          |    Y     |    X     |    X     |    X     |    X     |    X     |    X     |    X     |
+| Confused      |    X     |    X     |    Y     |    Y     |    Y     |    Y     |    Y     |    X     |
 
 5) Writing the full unit tests
     - Create the tests for specific weather conditions 1: rain ✅
