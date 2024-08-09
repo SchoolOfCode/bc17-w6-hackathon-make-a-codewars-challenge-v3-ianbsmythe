@@ -41,3 +41,30 @@ Your implementation should handle temperatures between -30°C and 50°C and comm
 - Write a function `kettleyOrFish(temperature, forecast)` that returns the appropriate weatherman or confused state based on the given conditions.
 - The temperature will be an integer between -30 and 50.
 - The forecast will be a string like "rain", "sunshine", "cloudy", etc.
+
+# 🌞🥶 Bonus Challenge ☃️⛈️
+
+## Introduction:
+In this bonus challenge, you will extend your weather prediction skills by creating a function that predicts specific weather events based on temperature and forecast conditions. This function will take into account a range of temperatures and various weather conditions to determine what kind of weather event might occur.
+
+The goal is to create a function that can accurately predict a specific weather event, like a snowstorm or a heatwave, given the temperature and the forecast condition. This challenge will test your ability to handle multiple conditions and edge cases effectively.
+
+## Challenge Overview
+Create a function, `weatherEventPredictor(temperature, "forecast")`, that predicts a weather event based on the given `temperature` (number) and weather `forecast` (string). The function will return specific strings based on certain conditions.
+
+## Conditions to Handle
+- Snowstorm: When it's below freezing and snowing.
+- Cold Rain: When it's cold (0°C to 15°C) and raining.
+- Sunny Day: When it's mild (15°C to 30°C) and sunny.
+- Heatwave: When it's hot (above 30°C) and sunny.
+- Unpredictable: For any other combinations of temperature and weather.
+
+## Examples:
+
+- weatherEventPredictor(-5, "snow") ➞ "Snowstorm"
+- weatherEventPredictor(10, "rain") ➞ "Cold Rain"
+- weatherEventPredictor(20, "sunshine") ➞ "Sunny Day"
+- weatherEventPredictor(35, "sunshine") ➞ "Heatwave"
+- weatherEventPredictor(25, "cloudy") ➞ "Unpredictable"
+
+In this bonus challenge, you need to implement the function `weatherEventPredictor(temperature, forecast)` to predict specific weather events based on the given conditions. The temperature parameter should be an integer between -30°C and 50°C, and the forecast parameter will be a string describing the weather, such as "snow", "rain", "sunshine", or "cloudy".
