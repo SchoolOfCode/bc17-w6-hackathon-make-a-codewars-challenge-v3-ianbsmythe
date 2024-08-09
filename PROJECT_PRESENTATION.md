@@ -5,9 +5,9 @@
 
 ## Overview!
 
-In this kata, create a function that determines if you are in a John Kettley, Michael Fish or confused mood based on the weather forecast. 
+Create a function that determines if you are in a John Kettley, Michael Fish or Confused mood based on the weather forecast. 
 
-For those who remember the weathermen, John Kettley and Michael Fish, you're blessed; for those who don't, you should definitely go and checkout this chart topping song from 1988 by 'A Tribe Called Toffs' - John Kettley (is a Weatherman). https://www.youtube.com/watch?v=Db6WHtNV5-I 
+For those who remember the weathermen, John Kettley and Michael Fish, you're blessed; for those who don't, you should checkout their hit (it reached 21 in the charts) song from 1988 by 'A Tribe Called Toffs' - John Kettley (is a Weatherman). https://www.youtube.com/watch?v=Db6WHtNV5-I 
 
 ## Problem Statement
 
