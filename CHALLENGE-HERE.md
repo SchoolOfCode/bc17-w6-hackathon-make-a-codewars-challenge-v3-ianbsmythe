@@ -21,6 +21,15 @@ Users need to implement a function `kettleyOrFish` that takes two inputs: `tempe
 
 Welcome to the wonderful world of weather! Your task is to write a function called `kettleyOrFish`.  
 
+### Setup first:
+1) Clone the repo - https://github.com/SchoolOfCode/bc17-w6-hackathon-make-a-codewars-challenge-v3-ianbsmythe.git  
+2) `npm install`
+3) `npm install -d vitest`
+4) Enter function into `kettleyOrFish.js` - Export skeleton is ready for your function/s
+5) Test your functions - `npm test`
+6) If you finish, there is a `bonusChallenge.js` - Export skeleton is ready for your function/s
+7) Answers in `answer.js` files for each challenge
+
 John Kettley is a famous British weatherman known for predicting rain (🌧️), and Michael Fish is known for
 getting it wrong sometimes (🌤️). Depending on the forecast, you need to decide if you're more of a Kettley (expecting rain) or a Fish (expecting sunshine)... or simply Confused
 
@@ -41,6 +50,8 @@ Your implementation should handle temperatures between -30°C and 50°C and comm
 - Write a function `kettleyOrFish(temperature, forecast)` that returns the appropriate weatherman or confused state based on the given conditions.
 - The temperature will be an integer between -30 and 50.
 - The forecast will be a string like "rain", "sunshine", "cloudy", etc.
+
+
 
 # 🌞🥶 Bonus Challenge ☃️⛈️
 
