@@ -1,7 +1,8 @@
 # Project Presentation 
 # How are you feeling today... John Kettley 🌧️ or Michael Fish🌞?
 ![alt text](<john kettley.jpg> "John Kettley") 
-# OR ![alt text](_93286911_mediaitem93286909.jpg.webp "Michael Fish")
+# OR 
+![alt text](_93286911_mediaitem93286909.jpg.webp "Michael Fish")
 
 ## Overview!
 
